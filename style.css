@@ -1,0 +1,48 @@
+body {
+  background-color: #333;
+  color: aliceblue;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input{
+  background-color: aliceblue;
+  font-weight: bold;
+  width: 300px;
+  height: 40px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  border: none;
+}
+input:focus{
+  border: 4px solid orange;
+}
+label{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+select{
+  font-weight: bold;
+  margin-bottom: 20px;
+  width: 50px;
+  height: 40px;
+  border-radius: 25px;
+}
+button{
+  width: 125px;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  margin: 10px;
+  font-weight: bold;
+}
+button:hover{
+  background-color: wheat;
+  color: red;
+  cursor: pointer;
+}
+button:active{
+  background-color: green;
+  color: red;
+}
